@@ -9,7 +9,7 @@ View criada para unificar as informações da lista de materiais com diferentes 
 
 ### Modelagem dos dados, Diagrama de Entidade Relacional:
 
-![](/DER_vwMateriaPrima.pdf)
+<img src="DER_vwMateriaPrima.pdf">
 
 Descrição visual dos relacionamentos entre as tabelas utilizadas. A tabela central, ou fato, é a lista de materiais solicitados nos projetos. 
 As tabelas desenhadas no modelo star schema com relacionamento LEFT trazem informações das etapas do processo de compras e entrada de estoque, como data de solicitação, previsão de entrega e nota fiscal de entrada. 
@@ -19,6 +19,6 @@ Os relacionamentos superiores de característica INNER são responsáveis por le
 ### Arquivo Excel com conectividade à consulta *vwMateriaPrima*:
 Arquivo final utilizado pelos funcionários, com uma macro de pesquisa de serviços para facilitar a busca das informações. A planilha também contém algumas segmentações de dados e um gráfico de rosca para resumirem os dados filtrados.
 
-![](/Exemplo de busca de servico.png)
+<img src="Exemplo de busca de servico.png">
 
 O arquivo não é disponibilizado por conter informações sem autorização de divulgação, porém, toda estrutura de Visual Basic pode ser visualizada através dos arquivos *'Macros.bas'* e *'AtualizarFiltro.cls'* com seus devidos comentários.
