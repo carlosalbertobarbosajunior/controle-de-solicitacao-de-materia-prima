@@ -9,7 +9,7 @@ View criada para unificar as informações da lista de materiais com diferentes 
 
 ### Modelagem dos dados, Diagrama de Entidade Relacional:
 
-![](/DER_vwMateriaPrima.pdf)
+<img src="DER_vwMateriaPrima.pdf">
 
 Descrição visual dos relacionamentos entre as tabelas utilizadas. A tabela central, ou fato, é a lista de materiais solicitados nos projetos. 
 As tabelas desenhadas no modelo star schema com relacionamento LEFT trazem informações das etapas do processo de compras e entrada de estoque, como data de solicitação, previsão de entrega e nota fiscal de entrada. 
