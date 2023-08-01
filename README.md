@@ -19,6 +19,6 @@ Os relacionamentos superiores de característica INNER são responsáveis por le
 ### Arquivo Excel com conectividade à consulta *vwMateriaPrima*:
 Arquivo final utilizado pelos funcionários, com uma macro de pesquisa de serviços para facilitar a busca das informações. A planilha também contém algumas segmentações de dados e um gráfico de rosca para resumirem os dados filtrados.
 
-![](/Exemplo de busca de servico.png)
+<img src="Exemplo de busca de servico.png">
 
 O arquivo não é disponibilizado por conter informações sem autorização de divulgação, porém, toda estrutura de Visual Basic pode ser visualizada através dos arquivos *'Macros.bas'* e *'AtualizarFiltro.cls'* com seus devidos comentários.
